@@ -29,3 +29,5 @@ So what have we learned? If possible minimize pointers and make them as local as
 ## How to use a profiler preferably from the terminal
 
 ## How does python test ing actually work?https://www.youtube.com/watch?v=6Lvu6WPuRS0
+
+## What is nose2? why would one use that to test things instead of something else?
