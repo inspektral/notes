@@ -3,11 +3,9 @@
 to add multiline code is like this
 
 ```python
-
 a = 10
 for i in range(a):
     print(i)
-
 ```
 
 and let's see mermaid instead

@@ -14,6 +14,7 @@ from each codebook and then they are conccatenated (adn then a linear projection
 ## Training
 
 Everything is trained together:
+
 - CNN takes audio (20ms) and outputs non-quantized vector(z)
 - z get quantized with a quantizer module (q)
 - z gets relative positional encoding with a small CNN (? i think it's here)
