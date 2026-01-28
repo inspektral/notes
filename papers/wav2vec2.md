@@ -19,6 +19,9 @@ Everything is trained together:
 - z gets relative positional encoding with a small CNN (? i think it's here)
 - z get masked (49%) and go into the transformer
 - transformer is trained to guess the quantized missing token
+- Loss 1: contrastive so positive target and distractors
+- Loss 2: diversity, entropy of the probability distribution of the codebooks
+- fine tuning step with labeled data and ctc loss
 
 ## Result
 

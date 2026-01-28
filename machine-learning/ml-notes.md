@@ -40,4 +40,7 @@ Contrastive learning is basically a loss function, it works like this: we have a
 - loss function minimizes distance with positives and maximizes with negatives
 
 There are some tricky parts, in particular chosing hard enough negatives without exaggerating, and feeding good poisitives, that are often augmented so that the shape changes but not the semantics.
- 
+
+# Diversity loss
+
+Often when quantizing we can experience index collapse, everything is mapped to the same thing, the loss is zero but everything is useless. so we use a diversity loss. Basically we take the distribuition of the notebooks, which is like a probability distribution, and we want it to have max entropy, thus a univorm distribution and we use as a loss the difference between our distribution and a uniform one. That is basically entropy, we want max entropy and so we just measure our entropy and loss is based on that. We just want the probability of each entry to be $1/K$.
