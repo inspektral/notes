@@ -30,7 +30,7 @@ So we have an utterance (vocal sound), goes through the CNN and it is now encode
 
 ### Masking
 
-On this audio units we apply a mask at the indices $M \sub [T]$ and we obtain $\tilde{X}$ a version of $X$ in which some frames are replaced with the masking embedding $\tilde{x}$. This is applied in a span masking fashion with a masking factor of around 50%, that means that long contiuous portions will be masked.
+On this audio units we apply a mask at the indices $M \subset [T]$ and we obtain $\tilde{X}$ a version of $X$ in which some frames are replaced with the masking embedding $\tilde{x}$. This is applied in a span masking fashion with a masking factor of around 50%, that means that long contiuous portions will be masked.
 
 ### Loss
 
