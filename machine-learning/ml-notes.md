@@ -31,4 +31,13 @@ The data has similar patterns in different segments. That's obvious, especially 
 
 Since in audio there is a lot of autocorrelation if we just mask a frame it's very easi to predict, just copy and paste the previous one. That works most of the time but it is clearly useless, to solve this what is done it is called span masking, which means that we mask subsequent frames all together, so that actual changes and information is masked, if a model is successful on this it means that it is learning quite a lot about how to fill in the blanks.
 
+## Contrastive learning
 
+Contrastive learning is basically a loss function, it works like this: we have a (or more than one) positive sample (vector), the one that our input should match and a few negative ones, that our input should not match, and the loss function is minimizing the distance with the positive and maximizing the distance with the negatives, so in summary:
+
+- One or more positive sample (targets)
+- Many negative samples (non-targets)
+- loss function minimizes distance with positives and maximizes with negatives
+
+There are some tricky parts, in particular chosing hard enough negatives without exaggerating, and feeding good poisitives, that are often augmented so that the shape changes but not the semantics.
+ 

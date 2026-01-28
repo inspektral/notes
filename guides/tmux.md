@@ -40,7 +40,8 @@ when you split the screen you are creating new panes.
 - `C-b p` go to previous window
 - `C-b 0-9` go to window n
 - `C-b w` list windows
-
+` file, from apperance to keybindings. that's quite fun and you can make
+tmux quite personalized to your needs.
 # Mouse mode
 
 I activated the mous mode, it lets you switch panes by clicking and select things in the terminal but it is
