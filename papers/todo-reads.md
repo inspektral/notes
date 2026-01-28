@@ -2,7 +2,7 @@
 
 ## Speech repreentation
 
-- [ ] wav2vec 2.0
+- [x] wav2vec 2.0
 - [ ] HuBERT
 - [ ] WavLM
 
