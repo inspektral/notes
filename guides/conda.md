@@ -15,7 +15,6 @@ probably depends on the command)
 - `conda env remove <env-to-be-removed>` deletes and environment
 - `conda rename -n <current-env-name> <new-env-name>`
 
-
 ## Conda vs Mamba
 
 Apparently you can also install packages in your conda environment with mamba, no idea what the difference

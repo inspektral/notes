@@ -9,3 +9,7 @@
 ## Audio stuff
 
 - [ ] EnCodec
+
+## Machine Learning
+
+- [ ] BERT [https://arxiv.org/pdf/1810.04805]()

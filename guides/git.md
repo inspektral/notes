@@ -5,6 +5,7 @@ Well i don't know shit about, git, I should learn some more, it could come in ve
 - `git clone <repo-link> <target-folder>` download repo from the internets
 
 - `git pull` download updates from the online repo
+
 - `git push` push updates to online repo
 
 What does origin mean?

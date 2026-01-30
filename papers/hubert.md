@@ -2,7 +2,7 @@
 
 ## Concept
 
-Just entropy loss, the targets are clusters of acoustic features, like K-means on MFCC. 
+It is predictive not contrastive, which is quite abig difference, it doesn't pick the right one ouf of x like wav2vec but it fills in the blank just with entropy loss, the targets are cluster index of the input audio. 
 
 ```mermaid
 flowchart LR
@@ -18,9 +18,24 @@ Once it is trained the input is just audio and the final output is a semanticall
 
 ## Architecture
 
-Very similar to wav2vec, the most relevant difference is how the quantizer works, here is much more refined
+The architecture is the standard wav2vec architecture:
 
-TODO: BERT encoder, projection layer, code embedding layer???
+```mermaid
+flowchart LR
+    A(CNN 1d 7 blocks) --> p1(Linear 512->768)
+    p1 --> B(BERT, 12+ layers)
+    B --> p2(Linear -> codebook)
+```
+
+### CNN
+
+The CNN is 7, blocks, 1d, the first applies a downsampling of 10x, the following of 2x, for a total downsampling of 320x, getting from 16khz to 50hz rate. All the layers have 512 channels.
+
+### BERT
+
+BERT stands for Bidirectional Encoder Representations from Transformers. the idea is that it is made to build a meaningful and contextful representation
+
+### Projection
 
 ## Training
 
