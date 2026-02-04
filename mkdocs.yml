@@ -61,15 +61,25 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Notes: notes.md
-  - Acronyms: acronyms.md
-  - Questions: questions.md
+  - Computers:
+    - Python:
+      - computers/python/index.md
+      - computers/python/debugger.py.md
+      - computers/python/path.md
+      - computers/python/unpack-operators.md
+    - Tools:
+      - computers/tools/index.md
+      - computers/tools/conda.md
+      - computers/tools/git.md
+      - computers/tools/glow-and-markdown.md
+      - computers/tools/hydra.md
+      - computers/tools/screen.md
+      - computers/tools/shells.md
+      - computers/tools/ssh.md
+      - computers/tools/tmux.md
+      - computers/tools/uv.md
+      - computers/tools/vim.md
   - Tools Guide: tools-guide.md
-  - Python:
-    - python/index.md
-    - python/debugger.py.md
-    - python/path.md
-    - python/unpack-operators.md
   - Machine Learning:
     - machine-learning/index.md
     - machine-learning/ml-notes.md
@@ -89,15 +99,8 @@ nav:
     - papers/sidon.md
     - papers/wav2vec2.md
     - papers/todo-reads.md
-  - Guides:
-    - guides/index.md
-    - guides/conda.md
-    - guides/git.md
-    - guides/glow-and-markdown.md
-    - guides/hydra.md
-    - guides/screen.md
-    - guides/shells.md
-    - guides/ssh.md
-    - guides/tmux.md
-    - guides/uv.md
-    - guides/vim.md
+  - Other:
+    - other/notes.md
+    - other/questions.md
+    - other/acronyms
+    - other/tools-guide.md
