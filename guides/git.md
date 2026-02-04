@@ -1,3 +1,9 @@
+---
+layout: default
+title: Git
+parent: Guides
+---
+
 # GIT
 
 Well i don't know shit about, git, I should learn some more, it could come in very handy.

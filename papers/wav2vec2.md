@@ -1,3 +1,9 @@
+---
+layout: default
+title: wav2vec 2.0
+parent: Papers
+---
+
 # wav2vec 2.0
 
 Basically audio in, quantized tokens out

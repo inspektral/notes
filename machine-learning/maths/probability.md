@@ -1,3 +1,9 @@
+---
+layout: default
+title: Probability
+parent: Mathematics
+---
+
 # Probability
 
 ## Probability distribuition

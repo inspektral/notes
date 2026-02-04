@@ -1,3 +1,9 @@
+---
+layout: default
+title: Screen
+parent: Guides
+---
+
 # Screen
 
 Is another terminal multiplexer, basically the father of tmux, much simpler but it comes preinstalled everywhere so that is pretty handy and it makes worth to know how to use it.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: SSH
+parent: Guides
+---
+
 # SSH and friends
 
 All about remote shit, agent forwarding, git things etc

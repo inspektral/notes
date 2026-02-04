@@ -1,3 +1,9 @@
+---
+layout: default
+title: ML Random Notes
+parent: Machine Learning
+---
+
 # ML-random notes
 
 I write stuff here, ideally they are to be moved once they make more sense in the bigger context

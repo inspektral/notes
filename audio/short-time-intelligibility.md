@@ -1,7 +1,7 @@
 ---
 layout: default
 title: STOI
-parent: audio
+parent: Audio
 ---
 
 # Short Time Objective Intelligibility
