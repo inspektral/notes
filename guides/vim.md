@@ -1,3 +1,9 @@
+---
+layout: default
+title: VIM
+parent: Guides
+---
+
 # VIM Guide
 
 ## useful commands

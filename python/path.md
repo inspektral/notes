@@ -1,3 +1,9 @@
+---
+layout: default
+title: pathlib
+parent: Python
+---
+
 # pathlib
 
 Let's try to understand how this works, I feel like it is quite relevant if we want to deal with files.

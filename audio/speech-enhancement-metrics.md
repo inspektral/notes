@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Losses
-parent: audio 
+parent: Audio 
 ---
 
 # Metrics and Losses

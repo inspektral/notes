@@ -1,3 +1,9 @@
+---
+layout: default
+title: Sidon
+parent: Papers
+---
+
 # Sidon
 
 [https://arxiv.org/pdf/2509.17052]()

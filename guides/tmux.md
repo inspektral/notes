@@ -1,3 +1,9 @@
+---
+layout: default
+title: Tmux
+parent: Guides
+---
+
 # Tmux
 
 tmux is a terminal multiplexer, that allows for having multiple terminal sessions, with different, sessions, windows and panes. It makes quite a bit of sense to use it especially if one has different sessions via ssh, and also wants to split into panes to have more flexibilty when using CLI stuff. There are no many reasons to not have it and it is so customizable and usable anywhere that it is kinda a super terminal learn it once use it everywhere.

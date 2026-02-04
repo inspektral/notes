@@ -1,3 +1,9 @@
+---
+layout: default
+title: UV
+parent: Guides
+---
+
 # UV
 
 I don't really know it's like pip but better in some way.

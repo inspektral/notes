@@ -1,3 +1,9 @@
+---
+layout: default
+title: Markdown
+parent: Guides
+---
+
 # Markdown
 
 to add multiline code is like this

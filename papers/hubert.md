@@ -1,3 +1,9 @@
+---
+layout: default
+title: HuBERT
+parent: Papers
+---
+
 # HuBERT
 
 ## Concept

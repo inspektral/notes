@@ -1,3 +1,9 @@
+---
+layout: default
+title: Papers To Read
+parent: Papers
+---
+
 # Papers to read
 
 ## Speech repreentation

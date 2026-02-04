@@ -1,3 +1,9 @@
+---
+layout: default
+title: K-means
+parent: Mathematics
+---
+
 # K-means
 
 It is a method to cluster data, which is de-facto quantization, and divides the space into voronoi cells, starting from random displaced centroids moving them around until they're good. It is a discrete latent variable model.

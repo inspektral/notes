@@ -1,3 +1,9 @@
+---
+layout: default
+title: Conda
+parent: Guides
+---
+
 # Conda
 
 I'll be using minconda, even though the differences should be investigated.
