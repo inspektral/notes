@@ -1,3 +1,9 @@
+---
+layout: default
+title: STOI
+parent: audio
+---
+
 # Short Time Objective Intelligibility
 
 STOI (2011) is an intrusive metric, meaning that it requires a clean reference and it measures degradation.

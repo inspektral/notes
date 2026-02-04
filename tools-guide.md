@@ -1,3 +1,10 @@
+---
+layout: default
+title: Guide of things that i intend to use 
+nav_order: 1
+has_children: true
+---
+
 # Guide of things that i intend to use
 
 ## Tmux

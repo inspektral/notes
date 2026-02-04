@@ -1,3 +1,10 @@
+---
+layout: default
+title: Questions
+nav_order: 1
+has_children: true
+---
+
 # Questions that will need an answer
 
 ## How does pickle work? What makes something pickleable?

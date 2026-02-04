@@ -1,3 +1,9 @@
+---
+layout: default
+title: Losses
+parent: audio 
+---
+
 # Metrics and Losses
 
 ### What are we doing?

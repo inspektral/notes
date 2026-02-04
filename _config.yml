@@ -1,0 +1,9 @@
+title: My Research Notes
+remote_theme: just-the-docs/just-the-docs
+
+# This ensures your math renders correctly
+mermaid:
+  version: "9.1.3"
+
+# Optional: Add a search bar
+search_enabled: true

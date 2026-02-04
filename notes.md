@@ -1,3 +1,10 @@
+---
+layout: default
+title: Random
+nav_order: 1
+has_children: true
+---
+
 # Random notes
 
 ## CTC Loss
