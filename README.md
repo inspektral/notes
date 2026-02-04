@@ -32,11 +32,19 @@ The built site will be in the `site/` directory.
 
 ## Deployment
 
-To deploy to GitHub Pages:
+The documentation is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the `main` branch.
+
+**First-time setup:** See [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) for instructions on configuring GitHub Pages to use GitHub Actions as the deployment source.
+
+### Manual Local Deployment (Not Recommended)
+
+If you need to deploy manually from your local machine:
 
 ```bash
 mkdocs gh-deploy
 ```
+
+Note: The automated GitHub Actions workflow is the recommended deployment method.
 
 ## Features
 
