@@ -1,0 +1,103 @@
+site_name: Notes
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for dark mode (default)
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+
+markdown_extensions:
+  # Math support
+  - pymdownx.arithmatex:
+      generic: true
+  # Mermaid diagram support
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  # Additional useful extensions
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra_javascript:
+  # MathJax configuration for math rendering
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.css
+
+nav:
+  - Home: index.md
+  - Notes: notes.md
+  - Acronyms: acronyms.md
+  - Questions: questions.md
+  - Tools Guide: tools-guide.md
+  - Python:
+    - python/index.md
+    - python/debugger.py.md
+    - python/path.md
+    - python/unpack-operators.md
+  - Machine Learning:
+    - machine-learning/index.md
+    - machine-learning/ml-notes.md
+    - Mathematics:
+      - machine-learning/maths/index.md
+      - machine-learning/maths/softmax.md
+      - machine-learning/maths/kmeans.md
+      - machine-learning/maths/probability.md
+      - machine-learning/maths/gaussianmixturemodel.md
+  - Audio:
+    - audio/index.md
+    - audio/speech-enhancement-metrics.md
+    - audio/short-time-intelligibility.md
+  - Papers:
+    - papers/index.md
+    - papers/hubert.md
+    - papers/sidon.md
+    - papers/wav2vec2.md
+    - papers/todo-reads.md
+  - Guides:
+    - guides/index.md
+    - guides/conda.md
+    - guides/git.md
+    - guides/glow-and-markdown.md
+    - guides/hydra.md
+    - guides/screen.md
+    - guides/shells.md
+    - guides/ssh.md
+    - guides/tmux.md
+    - guides/uv.md
+    - guides/vim.md
