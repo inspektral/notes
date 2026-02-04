@@ -79,7 +79,6 @@ nav:
       - computers/tools/tmux.md
       - computers/tools/uv.md
       - computers/tools/vim.md
-  - Tools Guide: tools-guide.md
   - Machine Learning:
     - machine-learning/index.md
     - machine-learning/ml-notes.md
@@ -102,5 +101,5 @@ nav:
   - Other:
     - other/notes.md
     - other/questions.md
-    - other/acronyms
+    - other/acronyms.md
     - other/tools-guide.md
