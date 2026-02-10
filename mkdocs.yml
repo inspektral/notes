@@ -2,42 +2,30 @@ site_name: Notes
 
 theme:
   name: material
+  logo: false
   palette:
-    # Palette toggle for dark mode (default)
     - scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
   features:
+    - announce.dismiss
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - search.suggest
-    - search.highlight
     - content.code.copy
     - content.code.annotate
+    - hide.footer
 
 plugins:
   - search
 
 markdown_extensions:
-  # Math support
   - pymdownx.arithmatex:
       generic: true
-  # Mermaid diagram support
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  # Additional useful extensions
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -52,10 +40,8 @@ markdown_extensions:
       permalink: true
 
 extra_javascript:
-  # MathJax configuration for math rendering
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  - https://unpkg.com/mermaid@10/dist/mermaid.min.css
-
+  - stylesheets/extra.css # <--- Make sure your "anti-animation" CSS is here!

@@ -1,0 +1,77 @@
+/* === KILL THE SILLY ANIMATIONS === */
+.md-search__input,
+.md-search__output,
+.md-header,
+.md-sidebar,
+.md-content,
+.md-main__inner {
+    transition: none !important;
+    animation: none !important;
+}
+
+/* === GRUVBOX COLOR SCHEME === */
+[data-md-color-scheme="slate"] {
+    /* Header / Top Bar */
+    --md-primary-fg-color: #1d2021;
+    --md-primary-fg-color--light: #3c3836;
+    --md-primary-fg-color--dark: #1d2021;
+
+    /* THE BLUE KILLER - Force accent to Gruvbox Yellow/Orange */
+    --md-accent-fg-color: #fabd2f !important;
+    --md-accent-fg-color--transparent: rgba(250, 189, 47, 0.1);
+    --md-accent-bg-color: #fe8019 !important;
+
+    /* Main Page Background */
+    --md-default-bg-color: #282828;
+    --md-default-bg-color--light: #3c3836;
+
+    /* Text Colors */
+    --md-default-fg-color: #ebdbb2;
+    --md-default-fg-color--light: #a89984;
+}
+
+/* Force active navigation links to be Yellow (instead of Blue) */
+.md-nav__link--active {
+    color: #fabd2f !important;
+    font-weight: bold;
+}
+
+/* Kill the footer entirely via CSS just in case */
+.md-footer {
+    display: none !important;
+}
+
+/* Fix Header styling */
+.md-header {
+    background-color: #1d2021 !important;
+    color: #ebdbb2 !important;
+}
+
+/* Fix Search Bar */
+.md-search__form {
+    background-color: #3c3836 !important;
+}
+
+.md-typeset a {
+    color: #83a598 !important; /* Gruvbox Blue/Aqua - much softer */
+}
+
+/* Hover state for links */
+.md-typeset a:hover {
+    color: #fabd2f !important; /* Yellow on hover */
+}
+
+/* Fix for the "active" state in the Table of Contents on the right */
+.md-nav__link[data-md-state="blur"],
+.md-nav__link--active {
+    color: #fabd2f !important;
+}
+
+/* Fix for social icons or other SVG links */
+.md-social__link {
+    color: #a89984 !important;
+}
+
+.md-social__link:hover {
+    color: #ebdbb2 !important;
+}
