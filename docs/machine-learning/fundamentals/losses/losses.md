@@ -27,10 +27,15 @@ There is also an important thing to mention, we are being very general here and 
 
 Stuff like $\frac{1}{N}$ and $\sum_{i=1}^N$ doesn't really matter, this is just means the average. the most another important thing is that $y_i-f(x_i)$ is just the distance from the truth, that's the input to our actual measurament. The point is that $y_i$ can be any number, and we are interested in reaching that number so we measure how far we are from it and then we calculcate our gradient. $y_i - f(x_i)$ is just placing ourself on the correct spot on the x axis, before appling the function whose slope we're interested about.
 
+This "how bad" is the point of this topic, defining an operation, called loss $L(y, \hat y)$ that represent how good a guess is with a simple number, $0$ being a perfect guess and a high number being a bad guess.
+
 #### Metaphor
 
 Let's an idea of a model could be an algorithm that given a picture from google street view guesses the coordinates where this picture was taken. Now of course an image is huge, it's like a million of pixels, and on the other side coordinates are just two numbers (and two letters).
-So our x will be a matrix, a 2D array, a table that represent the pixels and the model is gonna do something to transform this in somthing that has the same shape as the truth, so 2 numbers and 2 letters. The following task is the focus of this page and it is to measure how far from the truth the model is, how bad its guesses are
+So our $x$ will be a matrix, a 2D array, a table that represent the pixels and the model is going to transform this in somthing that has the same shape as the truth $y$, so 2 numbers and 2 letters. 
+
+The following task is the focus of this page and it is to measure how far from the truth the model is, how bad its guess $\hat y$ is. In this case an obvious pick is to define the loss as the distance on the surface of the earth between $y$ and $\hat y$, but different losses are possible, like actual road distance or distance on a map (projection of the sphere on a plane)
+
 
 ## Mean Bias Error
 

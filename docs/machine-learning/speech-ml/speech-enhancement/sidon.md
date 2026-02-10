@@ -1,4 +1,3 @@
-
 # Sidon
 
 [https://arxiv.org/pdf/2509.17052]()
@@ -23,5 +22,3 @@ Vocoder is HiFi-GAN, same concept as descript audio decoder
 - Vocoder is trained, from clean feature to clean audio (MSE between Mel spectrograms + Feature Matching Loss)
 
 - Vocoder is fine-tuned, from predicted feature to clean audio (MSE between Mel spectrograms + Feature Matching Loss)
-
-

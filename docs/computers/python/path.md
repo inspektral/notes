@@ -6,10 +6,6 @@ Let's try to understand how this works, I feel like it is quite relevant if we w
 Before there was os to deal with this kind of stuff, and it treated paths as strings. Now we can use Path and treat them as objects.
 In pathlib it's a tiny bit slower, but it manages platforms and a lot of other things, way more powerful an basically the go to, at least since python 3.12
 
-```python
-
-```
-
 Let's start by creating a path and using the join `/` operator
 
 ```python

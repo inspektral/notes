@@ -75,3 +75,34 @@
 .md-social__link:hover {
     color: #ebdbb2 !important;
 }
+
+/* Code block background and text */
+code {
+    background-color: #3c3836 !important; /* bg1 */
+    color: #ebdbb2 !important; /* fg */
+}
+
+/* The actual block container */
+.md-typeset pre {
+    background-color: #1d2021 !important; /* Hard dark bg */
+    border-radius: 4px;
+}
+
+/* Line numbers gutter */
+.md-typeset .md-code__linenums {
+    background-color: #282828 !important;
+    color: #928374 !important; /* Gray */
+    border-right: 1px solid #3c3836;
+}
+
+/* Fix the copy button hover */
+.md-clipboard:hover {
+    color: #fabd2f !important;
+}
+
+/* Inline code (like `this`) */
+.md-typeset code {
+    background-color: #3c3836 !important;
+    color: #fe8019 !important; /* Orange for inline code to pop */
+    padding: 2px 4px;
+}
