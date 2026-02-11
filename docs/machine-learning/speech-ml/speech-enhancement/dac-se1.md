@@ -6,9 +6,9 @@ tags: __se__, __LM__, __transformer__, __latent__, __dac__, __code__, __weights_
 
 ## Links
 
-- github repo: [https://github.com/ETH-DISCO/DAC-SE1/tree/main?tab=readme-ov-file]()
-- paper: [https://arxiv.org/pdf/2510.02187]()
-- weights: [https://huggingface.co/disco-eth/DAC-SE1/tree/main]()
+- github repo: [https://github.com/ETH-DISCO/DAC-SE1/tree/main?tab=readme-ov-file](https://github.com/ETH-DISCO/DAC-SE1/tree/main?tab=readme-ov-file)
+- paper: [https://arxiv.org/pdf/2510.02187](https://arxiv.org/pdf/2510.02187)
+- weights: [https://huggingface.co/disco-eth/DAC-SE1/tree/main](https://huggingface.co/disco-eth/DAC-SE1/tree/main)
 
 ## Concept
 

@@ -1,6 +1,6 @@
 # Sidon
 
-[https://arxiv.org/pdf/2509.17052]()
+[https://arxiv.org/pdf/2509.17052](https://arxiv.org/pdf/2509.17052)
 
 The idea is having a super smart encoder (a transformer, like HuBERT or similar) for a DAC-like latent space, and adapt the decoder to decode from this new encoder
 
