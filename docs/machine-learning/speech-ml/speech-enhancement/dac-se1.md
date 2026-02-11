@@ -1,6 +1,6 @@
 # DAC SE 1
 
-Speech enhancement model, based on latent transformer in the DAC latent space. Accepted at ICASSP 2026. Inference seems super slow, in fact not working. Maybe it doesn't even sound that good, but the approach might be interesting. 
+Speech enhancement model, based on latent transformer in the DAC latent space. Accepted at ICASSP 2026 (Maybe participating at urgent). Inference seems super slow, in fact not working. Maybe it doesn't even sound that good, but the approach might be interesting. 
 
 tags: __se__, __LM__, __transformer__, __latent__, __dac__, __code__, __weights__, __2025__
 

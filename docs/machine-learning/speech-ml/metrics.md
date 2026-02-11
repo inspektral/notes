@@ -15,9 +15,9 @@ Also it is probably useless, all the models that I trained seems to have 0 STOI,
 
 STOI (2011) is an intrusive metric, meaning that it requires a clean reference and it measures degradation.
 
-`torchmetrics.audio.stoi`[[Short-Time Objective Intelligibility (STOI) &mdash; PyTorch-Metrics 1.8.2 documentation](https://lightning.ai/docs/torchmetrics/stable/audio/short_time_objective_intelligibility.html)]()
+`torchmetrics.audio.stoi`[Short-Time Objective Intelligibility (STOI) &mdash; PyTorch-Metrics 1.8.2 documentation](https://lightning.ai/docs/torchmetrics/stable/audio/short_time_objective_intelligibility.html)
 
-`pystoy` [[GitHub - mpariente/pystoi: Python implementation of the Short Term Objective Intelligibility measure](https://github.com/mpariente/pystoi)]()
+`pystoy` [GitHub - mpariente/pystoi: Python implementation of the Short Term Objective Intelligibility measure](https://github.com/mpariente/pystoi)
 
 ``
 
