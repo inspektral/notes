@@ -8,6 +8,10 @@ PARAllel Generative Speech Enhancement
 - code: <https://github.com/fliu215/ParaGSE>
 - demo: <https://anonymity225.github.io/ParaGSE/>
 
+## Important Notes
+
+In the MDCT codec paper they mention 48khz audio, but in this, which is using the GMDCT codec they seem to be using 16kHz audio and provide weights for that.
+
 ## Codec
 
 They use this interesting codec: G-MDCTCodec (Group Modified Cosine Transform Codec) based on GVQ (Group Vector Quantization). This codec outputs multiple independent vectors that then get quantized

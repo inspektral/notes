@@ -4,6 +4,10 @@ Speech enhancement model, based on latent transformer in the DAC latent space. A
 
 tags: __se__, __LM__, __transformer__, __latent__, __dac__, __code__, __weights__, __2025__
 
+## Important notes
+
+Painfully slow, RTF like 30
+
 ## Links
 
 - github repo: [https://github.com/ETH-DISCO/DAC-SE1/tree/main?tab=readme-ov-file](https://github.com/ETH-DISCO/DAC-SE1/tree/main?tab=readme-ov-file)
