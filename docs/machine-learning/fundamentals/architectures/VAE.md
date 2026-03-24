@@ -39,12 +39,23 @@ And now we have the weird one, at least IMHO, the prior: $p(z)$. This is like th
 
 ### Losses
 
+#### Reconstruction Loss
+
+This is simple reconstruction loss:
+
+$$MSE(x, x')$$
+
 #### KL Divergence
 
-How much information is lost if we use $p_\theta$ to represent $q_\phi$? *Kullback-Leibler divergence* answers this question
+Kullback-Leibler Divergence is similar to a distance between two distributions, but it's asymmetrical, it is actually a measurement of how much information is lost when approximating. This is the second main component of our loss. 
 
-$$D_{KL}(q_\phi|p_\theta)$$
+$$D_{KL}(Q||P) = \int_{-\infin}^\infin q(x)\log\frac{q(x)}{p(x)}dx $$
 
+Even if it might feel like a hack, this loss is actually a mathematical consequence of all the assumptions of the model, which follow from ELBO derivation. the idea is that we want our data points to be in a standard multivariate gaussian, and so at training time we will punish the distribution predicted by the encoder against our prior $\mathcal{N}(0,1)$, which is chosen as a reasonable assumption and allows to easily calculate $D_{KL}$. This has as a result that our predicted distribution will not collapse to a single point, will not be too flat and will be all pushed towards the $0$ of our latent space, keeping it as compact as possible.
+
+#### Total loss
+
+$$L_{VAE} = MSE(x, x') + D_{KL}(\mathcal{N}(z_\mu, z_\sigma)||\mathcal{N}(0,1))$$
 
 ## Inference
 
