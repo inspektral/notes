@@ -49,7 +49,7 @@ $$MSE(x, x')$$
 
 Kullback-Leibler Divergence is similar to a distance between two distributions, but it's asymmetrical, it is actually a measurement of how much information is lost when approximating. This is the second main component of our loss. 
 
-$$D_{KL}(Q||P) = \int_{-\infin}^\infin q(x)\log\frac{q(x)}{p(x)}dx $$
+$$D_{KL}(Q||P) = \int q(x)\log\frac{q(x)}{p(x)}dx $$
 
 Even if it might feel like a hack, this loss is actually a mathematical consequence of all the assumptions of the model, which follow from ELBO derivation. the idea is that we want our data points to be in a standard multivariate gaussian, and so at training time we will punish the distribution predicted by the encoder against our prior $\mathcal{N}(0,1)$, which is chosen as a reasonable assumption and allows to easily calculate $D_{KL}$. This has as a result that our predicted distribution will not collapse to a single point, will not be too flat and will be all pushed towards the $0$ of our latent space, keeping it as compact as possible.
 
